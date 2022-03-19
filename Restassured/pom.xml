@@ -1,9 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>RestAssuredTesting</groupId>
-  <artifactId>APITesting</artifactId>
+  <groupId>APITesting</groupId>
+  <artifactId>RestAssuredTesting</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-    <build>
+<build>
   <pluginManagement>
    <plugins>
     <plugin>
@@ -24,8 +24,8 @@
    </plugins>
   </pluginManagement>
  </build>
-   <dependencies>
-<dependency>
+  <dependencies>
+  <dependency>
       <groupId>io.rest-assured</groupId>
       <artifactId>rest-assured</artifactId>
       <version>4.5.1</version>
@@ -57,5 +57,5 @@
     <version>6.9.10</version>
     <scope>test</scope>
 </dependency>
-</dependencies>
-  </project>
+  </dependencies>
+</project>
